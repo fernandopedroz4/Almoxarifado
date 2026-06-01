@@ -25,8 +25,8 @@ class AlmoarifadoPanelProvider extends PanelProvider
     {
         return $panel
             ->default()
-            ->id('almoarifado')
-            ->path('almoarifado')
+            ->id('almoxarifado')
+            ->path('almoxarifado')
             ->login()
             ->colors([
                 'primary' => Color::Amber,
