@@ -13,6 +13,6 @@ class Movimento extends Model
 
     public function produto()
     {
-        return $this->belongTo(produto::class, 'produto_id');
+        return $this->belongsTo(Produto::class, 'produto_id');
     }
 }

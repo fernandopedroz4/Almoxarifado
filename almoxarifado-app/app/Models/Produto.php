@@ -7,12 +7,12 @@ use App\Models\Movimento;
 
 class Produto extends Model
 {
-    protected $fillablle = [
+    protected $fillable = [
         'nome', 'marca', 'estoque',
     ];
 
     public function movimentos()
     {
-        return $this->hasMny(movimentos::class);
+        return $this->hasMany(Movimento::class);
     }
 }
